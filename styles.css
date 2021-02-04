@@ -1,0 +1,21 @@
+body {
+  background-image: url("Images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;}
+
+.backgroundBox {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 90vh;
+  width: 90vw;
+  border-radius: 15px;
+}
+
+.backgroundBox * {
+  padding: 5px;
+}

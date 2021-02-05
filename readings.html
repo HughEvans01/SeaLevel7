@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        
+        <link rel="stylesheet" href="styles.css">
+
+        <script>
+        window.onload = function () {
+            
+            var dps = []; //dataPoints. 
+        
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            theme: "light2",
+            title:{
+                text: "Carbon Footprint Results"
+            },
+            data: [{
+                    type: "line",
+                    dataPoints:dps
+                }]
+        });
+
+        function addDataPointsAndRender() {
+                xValue = Number(document.getElementById("xValue").value);
+                dps.push({
+                    y: xValue,
+                   
+                });
+                chart.render();
+            }
+
+            var renderButton = document.getElementById("renderButton");
+            renderButton.addEventListener("click", addDataPointsAndRender);    
+        
+        }
+        </script>
+        </head>
+        <body>
+        <div id="chartContainer" style="height: 300px; width: 72%;"></div>        
+                <div class="b">
+        
+                    <h1>Enter your Carbon Footprint Readings here!</h1>
+                    <p>To get your readings, do this quiz: <a href="pages/footprintCalculator.html">HERE!</a></p>
+                    <h3>
+                    Enter your Carbon Footprint
+                    <input id="xValue" type="number" step="any"><br>
+                    <button id="renderButton">Add Footprint and render</button>
+                </div>
+                <div id="chartContainer" style="height: 300px; width: 50%"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </body>
+</html>

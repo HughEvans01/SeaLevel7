@@ -24,7 +24,7 @@ body {
   padding: 15px;
 }
 
-p {
+.content p {
   background-color: grey;
 }
 
@@ -137,10 +137,6 @@ li a:active {
   color: black;
 } 
 
-<<<<<<< HEAD
-
-
-=======
 .score {
   display: flex;
   justify-content: space-between;
@@ -155,5 +151,20 @@ li a:active {
 .loginBox {
   background-color: white;
   border-radius: 15px;
+  position:absolute;
+  top:10px;
+  right: 10px;
+  padding: 20px;
 }
->>>>>>> 3af1baeb3ecfe1252f4bc09fd35810ef4d9a7b02
+
+#loginButton {
+  background-color: lightblue;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#signupButton {
+  background-color: red;
+  border-radius: 15px;
+  padding: 10px;
+}

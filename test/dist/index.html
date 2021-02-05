@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sea Level</title>
+    <!-- Pointer events polyfill for old browsers, see https://caniuse.com/#feat=pointer -->
+    <script src="https://unpkg.com/elm-pep"></script>
+    <link rel="stylesheet" href="/styles.8986bff4.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css" rel="stylesheet">
+  <script src="/styles.8986bff4.js"></script><link rel="stylesheet" href="/main.1f19ae8e.css"></head>
+  <body>
+    <div id="map" class="map"></div>
+    
+    <div class="modal-wrapper">
+        <div class="modal-container">
+            <p class="heading">Predict Future Flooding</p>
+            <p class="sub-heading">If average person carbon foot print per day was: (kg/co2)</p>
+            <input type="text" class="input" id="co2" name="email" value="1"><br><br>
+            <p class="sub-heading">Year: <span id="outputYear"></span></p>
+            <label>
+                <input class="slider" id="level" type="range" min="0" max="100" value="1">
+                +<span id="output"></span> m
+              </label>
+            <br><br>
+            <p class="sub-heading">Track Your usage with others</p>
+            <div class="buttonContainer">
+              <input type="submit" class="signupButton" value="Sign In">
+              <input type="submit" class="signinButton" value="Sign Up">
+            </div>
+
+        </div>
+    </div>
+    <script src="/main.1f19ae8e.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+.map {
+  width: 100wh;
+  height: 100vh;
+}
+#level {
+  display: inline-block;
+  width: 150px;
+  vertical-align: text-bottom;
+}
+
+a.location {
+  cursor: pointer;
+}
+
+#map {
+  background: #85ccf9;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-wrapper {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  z-index: 190000000;
+  width: 40%;
+  height: 35%;
+  max-width: 600px;
+  max-height: 700px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  background-color: white;
+}
+.modal-container {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+input[type="text"] {
+  width: 100%;
+  background: #e8e8e8;
+  border-radius: 10px;
+  border: none;
+  border-width: 0;
+  padding: 10px;
+  box-shadow: none;
+}
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+}
+.heading {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 13px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.sub-heading {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#map {
+  width: 100wh;
+  height: 100vh;
+}
+
+.slider {
+  width: 200px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+}
+.signupButton {
+  width: 50%;
+  height: 80px;
+  margin-right: 20px;
+  background: #48cae4;
+
+  border-radius: 10px;
+  border: none;
+}
+
+.signinButton {
+  width: 50%;
+  height: 80px;
+  background: #ed6663;
+  border-radius: 10px;
+  border: none;
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */

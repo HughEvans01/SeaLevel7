@@ -137,5 +137,23 @@ li a:active {
   color: black;
 } 
 
+<<<<<<< HEAD
 
 
+=======
+.score {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  border-radius: 15px;
+}
+
+#top {
+  background-color: lightblue;
+}
+
+.loginBox {
+  background-color: white;
+  border-radius: 15px;
+}
+>>>>>>> 3af1baeb3ecfe1252f4bc09fd35810ef4d9a7b02

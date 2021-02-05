@@ -5,6 +5,7 @@ body {
   background-size: cover;}
 
 .backgroundBox {
+  display: flex;
   background-color: white;
   position: absolute;
   top: 50%;
@@ -16,6 +17,23 @@ body {
   border-radius: 15px;
 }
 
-.backgroundBox * {
-  padding: 5px;
+.content {
+  padding: 15px;
+}
+
+p {
+  background-color: grey;
+}
+
+.sideBar {
+  margin-top: 0px;
+  height: 90vh;
+  width: 30vw;
+  background-color: lightgray;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+ul {
+  list-style-type:none;
 }

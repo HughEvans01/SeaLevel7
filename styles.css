@@ -37,3 +37,30 @@ p {
 ul {
   list-style-type:none;
 }
+
+img {
+  border-radius: 15px;
+}
+
+li a {
+    text-decoration: none;
+}
+ /* unvisited link */
+li a:link {
+  color: black;
+}
+
+/* visited link */
+li a:visited {
+  color: black;
+}
+
+/* mouse over link */
+li a:hover {
+  color: black;
+}
+
+/* selected link */
+li a:active {
+  color: black;
+} 

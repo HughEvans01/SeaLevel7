@@ -21,7 +21,7 @@ body {
   padding: 15px;
 }
 
-p {
+.content p {
   background-color: grey;
 }
 
@@ -79,4 +79,20 @@ li a:active {
 .loginBox {
   background-color: white;
   border-radius: 15px;
+  position:absolute;
+  top:10px;
+  right: 10px;
+  padding: 20px;
+}
+
+#loginButton {
+  background-color: lightblue;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#signupButton {
+  background-color: red;
+  border-radius: 15px;
+  padding: 10px;
 }

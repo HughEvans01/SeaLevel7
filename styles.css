@@ -64,3 +64,19 @@ li a:hover {
 li a:active {
   color: black;
 } 
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  border-radius: 15px;
+}
+
+#top {
+  background-color: lightblue;
+}
+
+.loginBox {
+  background-color: white;
+  border-radius: 15px;
+}
